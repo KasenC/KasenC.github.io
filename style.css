@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    color:white;
+}
+
+html, body
+{
+    margin: 0px;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:skyblue;
+}
+
+h1{
+    text-align: center;
+}
+/*
+h2{
+    margin-left: 23px;
+}*/
+
+.box{
+    display: flex;
+    flex-flow: column;
+}
+
+.content{
+    flex: 1 1 auto;
+    background-color: rgb(48, 77, 100);
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.centerColumn{
+    flex: 1 1 auto;
+    max-width: 1000px;
+    padding: 25px 100px 25px 100px;
+    box-sizing: border-box;
+    background-color: #202020;
+}
