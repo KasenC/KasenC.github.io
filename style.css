@@ -33,6 +33,8 @@ img{
 
 .content{
     flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
     background-color: rgb(48, 77, 100);
     display: flex;
     flex-flow: row;
